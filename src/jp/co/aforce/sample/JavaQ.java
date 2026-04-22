@@ -28,10 +28,10 @@ public class JavaQ {
 	
 	Scanner scanner = new Scanner(System.in);
 	
-	System.out.print("名前を入力してください");
+	System.out.print("名前を入力してください:");
 		
-	String Name = scanner.nextLine();
-	System.out.println("こんにちは、" + Name + "さん！");
+	String inputName = scanner.nextLine();
+	System.out.println("こんにちは、" + inputName + "さん！");
 
 
 	}
