@@ -32,6 +32,8 @@ public class JavaQ {
 		
 	String inputName = scanner.nextLine();
 	System.out.println("こんにちは、" + inputName + "さん！");
+	
+	scanner.close();
 
 
 	}
