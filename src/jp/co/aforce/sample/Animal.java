@@ -2,12 +2,10 @@ package jp.co.aforce.sample;
 
 public class Animal {
 
-	
 	void makeSound() {
 		System.out.println("Some sound...");
 	}
 	
-}
 	
 	class Dog extends Animal{
 		@Override
@@ -22,5 +20,7 @@ public class Animal {
 			}
 		}
 	}
+	
+}
 	
 
