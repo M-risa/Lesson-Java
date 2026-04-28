@@ -32,6 +32,8 @@ public class Main7 {
 	
 	System.out.println("emp1 と emp2 は同じ？ : " + emp1.equals(emp2)); 
     System.out.println("emp1 と emp3 は同じ？ : " + emp1.equals(emp3));
+	
+	
 	}
 }
 
